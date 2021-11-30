@@ -5,6 +5,7 @@
 -  Run `yarn` to install the repo.
 - Make sure you are running at least node v8.0.0.
 - Run `yarn start` to run the react app.
+
 &nbsp;
 # Goals/Outcomes ✨
 - To test knowledge of consuming APIs and handling responses
@@ -12,17 +13,20 @@
 
 &nbsp;
 # Requirements 📖
+- oauth token: `BQBeR68cwBpig3-IthnoP8qmrqmkONdzSP5amdgc3Q6vDamt85JEmTLv8NWJYlknw-nhieKbvWXR6XfSQ9zL2pwMa2CM508dq_8gfX8jpAWumXBz9nNYzKn1ig11nmDjCMl9xgcIg6YESeDL6B_ppPHyg8Esb56LY0g`
 - Fetch and display *Released This Week* songs
   - Use the API path `new-releases`
+  - https://developer.spotify.com/console/get-new-releases
 - Fetch and display *Featured Playlists*
   - Use the API path `featured-playlists`
+  - https://developer.spotify.com/console/get-featured-playlists/
 - Fetch and display *Browse* genres
   - Use the API path `categories`
+  - https://developer.spotify.com/console/get-browse-categories/
 - Loading state/UI *(optional, current UX is already clean)*
 
 &nbsp;
 # Think about 💡
-- Taking a look at the Spotify API documentation
 - Do you resolve each API request one after the other or in parallel?
 - Where do you make the API requests?
 - How much logic do you offload out of the UI components?
