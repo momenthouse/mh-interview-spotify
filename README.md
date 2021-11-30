@@ -29,10 +29,15 @@
   - https://developer.spotify.com/console/get-new-releases
 - Fetch and display *Featured Playlists*
   - Use the API path `featured-playlists`
-  - https://developer.spotify.com/console/get-featured-playlists/
+  - https://developer.spotify.com/console/get-featured-playlists
 - Fetch and display *Browse* genres
   - Use the API path `categories`
-  - https://developer.spotify.com/console/get-browse-categories/
+  - https://developer.spotify.com/console/get-browse-categories
+- Search functionaliy
+- Preview Song
+  - Search for a song IE:
+`curl -X "GET" "https://api.spotify.com/v1/search?q=artist:Lady+Gaga+title:Bad+Romance&type=track&limit=1" -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer BQBeR68cwBpig3-IthnoP8qmrqmkONdzSP5amdgc3Q6vDamt85JEmTLv8NWJYlknw-nhieKbvWXR6XfSQ9zL2pwMa2CM508dq_8gfX8jpAWumXBz9nNYzKn1ig11nmDjCMl9xgcIg6YESeDL6B_ppPHyg8Esb56LY0g"`
+  - use the preview URL in the response
 - Loading state/UI *(optional, current UX is already clean)*
 
 &nbsp;
