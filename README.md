@@ -1,6 +1,11 @@
 # Spootify Coding Challenge 🎧 &nbsp; ![hard](https://img.shields.io/badge/-Hard-red) ![time](https://img.shields.io/badge/%E2%8F%B0-60m-blue) 
 
 &nbsp;
+# Setup
+-  Run `yarn` to install the repo.
+- Make sure you are running at least node v8.0.0.
+- Run `yarn start` to run the react app.
+&nbsp;
 # Goals/Outcomes ✨
 - To test knowledge of consuming APIs and handling responses
 - Loading state and knowing where and how to make multiple API calls efficiently
