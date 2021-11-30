@@ -11,9 +11,19 @@
 - To test knowledge of consuming APIs and handling responses
 - Loading state and knowing where and how to make multiple API calls efficiently
 
+
+&nbsp;
+# Instructions to use Spotify API
+- Copy OAuth token
+- `BQBeR68cwBpig3-IthnoP8qmrqmkONdzSP5amdgc3Q6vDamt85JEmTLv8NWJYlknw-nhieKbvWXR6XfSQ9zL2pwMa2CM508dq_8gfX8jpAWumXBz9nNYzKn1ig11nmDjCMl9xgcIg6YESeDL6B_ppPHyg8Esb56LY0g`
+- go to link(ie: https://developer.spotify.com/console/get-new-releases)
+- Enter the OAuth Token at the bottom of the page
+- Click "Try It"
+- Scroll down for response
+
+
 &nbsp;
 # Requirements 📖
-- oauth token: `BQBeR68cwBpig3-IthnoP8qmrqmkONdzSP5amdgc3Q6vDamt85JEmTLv8NWJYlknw-nhieKbvWXR6XfSQ9zL2pwMa2CM508dq_8gfX8jpAWumXBz9nNYzKn1ig11nmDjCMl9xgcIg6YESeDL6B_ppPHyg8Esb56LY0g`
 - Fetch and display *Released This Week* songs
   - Use the API path `new-releases`
   - https://developer.spotify.com/console/get-new-releases
