@@ -1,8 +1,31 @@
-@import '../../../styles/vars';
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { FC } from "react";
+import styled from "styled-components";
+import { ReactComponent as Hero } from "../../../assets/images/hero.svg";
 
-.header {
+type HeaderProps = {
+  className?: string;
+};
+
+const Header: FC<HeaderProps> = (p) => {
+  return (
+    <Container className={p.className}>
+      <Hero />
+      <div>
+        <h1>Your favourite tunes</h1>
+        <h2>
+          All <FontAwesomeIcon icon={faSun} /> and all{" "}
+          <FontAwesomeIcon icon={faMoon} />
+        </h2>
+      </div>
+    </Container>
+  );
+};
+
+const Container = styled.div`
   height: 300px;
-  background: $secondary-orange;
+  background: var(--secondary-orange);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -54,9 +77,10 @@
       margin-right: auto;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
       font-weight: 500;
-      text-shadow: $box-shadow;
+      text-shadow: var(--box-shadow);
       text-align: right;
 
       @media only screen and (max-width: 1300px) {
@@ -101,12 +125,12 @@
         margin-right: 10px;
 
         &:first-of-type {
-          color: #FFD60B;
+          color: #ffd60b;
         }
       }
 
       > svg:last-of-type {
-        color: $deep-grey;
+        color: var(--deep-grey);
       }
     }
   }
@@ -128,4 +152,6 @@
       display: none;
     }
   }
-}
+`;
+
+export default Header;

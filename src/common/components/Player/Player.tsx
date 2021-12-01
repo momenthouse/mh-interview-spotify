@@ -1,18 +1,18 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faStepForward,
+  faEllipsisH,
+  faHeart,
   faPlayCircle,
+  faRandom,
+  faRetweet,
   faStepBackward,
-  faEllipsisH
-} from '@fortawesome/free-solid-svg-icons';
-import { faHeart } from '@fortawesome/free-solid-svg-icons';
-import { faRandom } from '@fortawesome/free-solid-svg-icons';
-import { faRetweet } from '@fortawesome/free-solid-svg-icons';
-import { faVolumeDown } from '@fortawesome/free-solid-svg-icons';
-import './_player.scss';
+  faStepForward,
+  faVolumeDown,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import "./_player.scss";
 
-export default function Player() {
+const Player = () => {
   return (
     <div className="player">
       <div className="player__album">
@@ -34,4 +34,6 @@ export default function Player() {
       </div>
     </div>
   );
-}
+};
+
+export default Player;
