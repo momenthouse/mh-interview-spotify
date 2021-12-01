@@ -1,9 +1,7 @@
-@import '../../../styles/vars';
-
 .sidebar {
   min-width: 225px;
   width: 225px;
-  background: $primary-blue;
+  background: var(--primary-blue);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -43,6 +41,7 @@
     padding-left: 40px;
     padding-right: 40px;
     user-select: none;
+    text-decoration: none;
 
     @media only screen and (max-width: 650px) {
       padding-left: 30px;
@@ -68,7 +67,11 @@
 
     &--selected {
       pointer-events: none;
-      background: linear-gradient(to right, $secondary-blue, transparent 95%);
+      background: linear-gradient(
+        to right,
+        var(--secondary-blue),
+        transparent 95%
+      );
     }
   }
 
@@ -91,7 +94,7 @@
     > svg {
       width: 30%;
       height: auto;
-      box-shadow: $mid-box-shadow;
+      box-shadow: var(--mid-box-shadow);
       border-radius: 50%;
     }
   }
