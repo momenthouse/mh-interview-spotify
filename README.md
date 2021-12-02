@@ -14,7 +14,7 @@
 
 &nbsp;
 # Instructions to use Spotify API
-- Go to this link: 
+- Go to [this](https://getyourspotifyrefreshtoken.herokuapp.com/) link.
 - login with the spotify email: pietro@momenthouse.com password: momenthouse
 - Copy OAuth token in the results
 - ![image](https://user-images.githubusercontent.com/15001110/144375770-e46db67d-db96-44c7-b64d-512c748701f4.png)
@@ -59,6 +59,9 @@
     - Add a way to favorite a playlist or a release
     - Add a way to remove favorite from an item
     - Add a way to filter or search for only favorited items
+
+8. Bring the spotify OAuth [website](https://getyourspotifyrefreshtoken.herokuapp.com/) functionality to local site
+    
 
 &nbsp;
 # Think about 💡
