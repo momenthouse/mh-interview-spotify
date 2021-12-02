@@ -14,9 +14,9 @@
 
 &nbsp;
 # Instructions to use Spotify API
-- Client Secret = bb6279eaf0e04d9b9a5aa539ec6248ae
-- Client ID = 26e26062b3c1454da2ebf540f95c07c9
 - Go to [this](https://getyourspotifyrefreshtoken.herokuapp.com/) link.
+- Client ID = 26e26062b3c1454da2ebf540f95c07c9
+- Client Secret = bb6279eaf0e04d9b9a5aa539ec6248ae
 - login with the spotify email: pietro@momenthouse.com password: momenthouse
 - Copy OAuth token in the results
 - ![image](https://user-images.githubusercontent.com/15001110/144375770-e46db67d-db96-44c7-b64d-512c748701f4.png)
