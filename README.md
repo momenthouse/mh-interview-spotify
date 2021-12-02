@@ -26,39 +26,39 @@
 
 &nbsp;
 # Instructions 📖
-1. Fetch and display *Released This Week* songs
-  - Use the API path `new-releases`
-  - `GET https://api.spotify.com/v1/browse/new-releases`
-  - Examples and samples [here](https://developer.spotify.com/console/get-new-releases)
+1. Fetch and display *Released This Week* songs 
+    - Use the API path `new-releases`
+    - `GET https://api.spotify.com/v1/browse/new-releases`
+    - Examples and samples [here](https://developer.spotify.com/console/get-new-releases)
 
 
 2. Fetch and display *Featured Playlists*
-  - Use the API path `featured-playlists`
-  - `GET https://api.spotify.com/v1/browse/featured-playlists`
-  - Examples and samples [here](https://developer.spotify.com/console/get-featured-playlists)
+    - Use the API path `featured-playlists`
+    - `GET https://api.spotify.com/v1/browse/featured-playlists`
+    - Examples and samples [here](https://developer.spotify.com/console/get-featured-playlists)
 
 
 3. Fetch and display *Browse* genres
-  - Use the API path `categories`
-  - `GET https://api.spotify.com/v1/browse/categories`
-  - Examples and samples [here](https://developer.spotify.com/console/get-browse-categories)
+    - Use the API path `categories`
+    - `GET https://api.spotify.com/v1/browse/categories`
+    - Examples and samples [here](https://developer.spotify.com/console/get-browse-categories)
 
 4. Add a Loading state/UI
-  - Design up to you.
+    - Design up to you.
 
 5. Search functionaliy
- - Add ability to filter all new releases, playlists and categories
- - design and fucntionality up to you
+   - Add ability to filter all new releases, playlists and categories
+   - design and fucntionality up to you
 
 6. Play/Pause Functionality
-  - Search for a song, example [here](https://developer.spotify.com/console/get-search-item)
-  - use the preview URL in the response
+   - Search for a song, example [here](https://developer.spotify.com/console/get-search-item)
+   - use the preview URL in the response
 
 7. Favorite Functionality
-  - Does not have to be functional (hitting the spotify api)
-  - Add a way to favorite a playlist or a release
-  - Add a way to remove favorite from an item
-  - Add a way to filter or search for only favorited items
+    - Does not have to be functional (hitting the spotify api)
+    - Add a way to favorite a playlist or a release
+    - Add a way to remove favorite from an item
+    - Add a way to filter or search for only favorited items
 
 &nbsp;
 # Think about 💡
