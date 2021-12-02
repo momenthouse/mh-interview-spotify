@@ -47,6 +47,11 @@
 6. Play/Pause Functionality
   - Search for a song, example [here](https://developer.spotify.com/console/get-search-item)
   - use the preview URL in the response
+7. Favorite Functionality
+  - Does not have to be functional (hitting the spotify api)
+  - Add a way to favorite a playlist or a release
+  - Add a way to remove favorite from an item
+  - Add a way to filter or search for only favorited items
 
 &nbsp;
 # Think about 💡
