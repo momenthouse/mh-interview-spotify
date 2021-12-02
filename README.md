@@ -14,31 +14,39 @@
 
 &nbsp;
 # Instructions to use Spotify API
-- Copy OAuth token
-- `BQBeR68cwBpig3-IthnoP8qmrqmkONdzSP5amdgc3Q6vDamt85JEmTLv8NWJYlknw-nhieKbvWXR6XfSQ9zL2pwMa2CM508dq_8gfX8jpAWumXBz9nNYzKn1ig11nmDjCMl9xgcIg6YESeDL6B_ppPHyg8Esb56LY0g`
-- go to link(ie: https://developer.spotify.com/console/get-new-releases)
+- Go to this link: 
+- login with the spotify email: pietro@momenthouse.com password: momenthouse
+- Copy OAuth token in the results
+- ![image](https://user-images.githubusercontent.com/15001110/144375770-e46db67d-db96-44c7-b64d-512c748701f4.png)
+- go to link a sample link: (ie: https://developer.spotify.com/console/get-new-releases)
 - Enter the OAuth Token at the bottom of the page
 - Click "Try It"
 - Scroll down for response
 
 
 &nbsp;
-# Requirements 📖
-- Fetch and display *Released This Week* songs
+# Instructions 📖
+1. Fetch and display *Released This Week* songs
   - Use the API path `new-releases`
-  - https://developer.spotify.com/console/get-new-releases
-- Fetch and display *Featured Playlists*
+  - `GET https://api.spotify.com/v1/browse/new-releases`
+  - Examples and samples [here](https://developer.spotify.com/console/get-new-releases)
+2. Fetch and display *Featured Playlists*
   - Use the API path `featured-playlists`
+  - `GET https://api.spotify.com/v1/browse/featured-playlists`
+  - Examples and samples [here](https://developer.spotify.com/console/get-featured-playlists)
   - https://developer.spotify.com/console/get-featured-playlists
-- Fetch and display *Browse* genres
+3. Fetch and display *Browse* genres
   - Use the API path `categories`
-  - https://developer.spotify.com/console/get-browse-categories
-- Search functionaliy
-- Play/Pause Functionality
-  - Search for a song IE:
-`curl -X "GET" "https://api.spotify.com/v1/search?q=artist:Lady+Gaga+title:Bad+Romance&type=track&limit=1" -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer BQBeR68cwBpig3-IthnoP8qmrqmkONdzSP5amdgc3Q6vDamt85JEmTLv8NWJYlknw-nhieKbvWXR6XfSQ9zL2pwMa2CM508dq_8gfX8jpAWumXBz9nNYzKn1ig11nmDjCMl9xgcIg6YESeDL6B_ppPHyg8Esb56LY0g"`
+  - `GET https://api.spotify.com/v1/browse/categories`
+  - Examples and samples [here](https://developer.spotify.com/console/get-browse-categories)
+4. Add a Loading state/UI
+  - Design up to you.
+5. Search functionaliy
+ - Add ability to filter all new releases, playlists and categories
+ - design and fucntionality up to you
+6. Play/Pause Functionality
+  - Search for a song, example [here](https://developer.spotify.com/console/get-search-item)
   - use the preview URL in the response
-- Loading state/UI *(optional, current UX is already clean)*
 
 &nbsp;
 # Think about 💡
