@@ -2,8 +2,8 @@
 
 &nbsp;
 # Setup
--  Run `yarn` to install the repo.
-- Make sure you are running at least node v8.0.0.
+- Install the required Node version, or make sure you are running at least node v15.0.1.
+- Run `yarn` to install the repo.
 - Run `yarn start` to run the react app.
 
 &nbsp;
